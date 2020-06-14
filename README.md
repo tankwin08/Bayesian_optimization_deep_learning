@@ -24,23 +24,31 @@ will be better. We should return a negative logloss to make it suitable for maxi
 Note: It took a long time to run if you have a big dataset and wide boundary. You can refer to Colab for running the code.
 
 ***Data***
+
 The data for this project can be downloaded from [Kaggle](https://www.kaggle.com/c/applications-of-deep-learningwustl-spring-2020)
 
 Specificall, there are two data were used for this project:
+
  **(1)** training.csv, which include the 512 features one response variable glasses (1 represent have glass, 0 means no glasses).
+ 
  **(2)** submit.csv, which in fact is the test data which to measure how good of the model. (not really used in this project, but it's useful
  for the Kaggle practice)
  
  ***Method overview***
  
  (1) Data exploration
+ 
  (2) Check normality to see if we need to rescale the data
+ 
  (3) Define the NN model which can automatically generate architecture of NN.
+ 
  (4) Define the loss function which we want to optimized, which can help determine the good hyperpameters.
+ 
  (5) Bayesian optimization
  
  
  ***Reference***
+ 
  If you want to know about Bayesian optimziation. The follow sources can be helpful.
  
  Snoek, J., Larochelle, H., & Adams, R. P. (2012). [Practical bayesian optimization of machine learning algorithms](https://arxiv.org/pdf/1206.2944.pdf). In *Advances in neural information processing systems* (pp. 2951-2959).
