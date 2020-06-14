@@ -21,7 +21,7 @@ It's worthy to note that the Bayesian optimization is to find the maximum of a f
 metrics, we should take this part into consideration. For example, when we used log loss to evaluate our model performance, the smaller values
 will be better. We should return a negative logloss to make it suitable for maximum of the defined function.
 
-Note: It took a long time to run if you have a big dataset and wide boundary. You can refer to Colab for running the code.
+**Note:** It took a long time to run if you have a big dataset and wide boundary. You can refer to Colab for running the code.
 
 ***Data***
 
