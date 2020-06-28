@@ -1,10 +1,10 @@
-# Bayesian_optimization_deep_learning
+# Bayesian optimization deep learning
 
 ***Objetive:***
 
 This project is to classify if a person is wearing glasses or not using data contianing features, 
 which were generated from a Generative Adversarial Neural Network (GAN). Here we used Bayesian optimization
-to construct the architecture of Nentural Network (NN) and conduct paramter optimization.
+to construct the architecture of Nentural Network (NN) and conduct paramter optimization of the NN.
 
 ***Bayesian optimization***
 
@@ -44,7 +44,7 @@ Specificall, there are two data were used for this project:
  
  (4) Define the loss function which we want to optimized, which can help determine the good hyperpameters.
  
- (5) Bayesian optimization
+ (5) Bayesian optimization and get the best model results.
  
  
  ***Reference***
