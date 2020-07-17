@@ -15,7 +15,7 @@ optimization can overcome this problem by adopting an informed seach method in t
 Bayesian optimization works by constructing a posterior distribution of functions (gaussian process) that 
 best describes the function you want to optimize. As the number of observations grows, the posterior distribution 
 improves, and the algorithm becomes more certain of which  regions in parameter space are worth exploring and which are not. You can 
-find more information and explination [here](https://www.kaggle.com/jeffheaton/glasses-or-no-glasses)
+find more information and explination [here](https://github.com/fmfn/BayesianOptimization)
 
 It's worthy to note that the Bayesian optimization is to find the maximum of a function. Thus, when we formulate a function and evaulation
 metrics, we should take this part into consideration. For example, when we used log loss to evaluate our model performance, the smaller values
