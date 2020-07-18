@@ -40,7 +40,7 @@ Specificall, there are two data were used for this project:
  
  (2) Check normality to see if we need to rescale the data
  
- (3) Define the NN model which can automatically generate architecture of NN.
+ (3) Define the NN model which can automatically generate optimal architecture of NN.
  
  (4) Define the loss function which we want to optimized, which can help determine the good hyperpameters.
  
