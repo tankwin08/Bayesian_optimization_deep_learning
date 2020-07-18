@@ -23,7 +23,7 @@ will be better. We should return a negative logloss to make it suitable for maxi
 
 **Note:** It took a long time to run if you have a big dataset and wide boundary. You can refer to Colab for running the code.
 
-The following image gives us a good concept of how Bayesian optimziation works. The image was obtained from [here]((https://github.com/fmfn/BayesianOptimization))
+The following image gives us a good concept of how Bayesian optimziation works. The image was obtained from [here](https://github.com/fmfn/BayesianOptimization)
 
 ![BayesianOptimization in action](./img/bayesian_optimization.gif)
 
